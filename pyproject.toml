@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ramify"
+version = "0.0.1"
+description = "Enterprise agentic workflow platform by Ramify AI"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+authors = [{ name = "Ramify AI" }]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python :: 3",
+]
+dependencies = []
+
+[project.optional-dependencies]
+# circuit = ["ramify-circuit>=0.1.0"]
+# dev = ["pytest", "ruff", "ty"]
+
+[project.urls]
+Homepage = "https://github.com/ramify-ai"
+Repository = "https://github.com/ramify-ai/ramify"
